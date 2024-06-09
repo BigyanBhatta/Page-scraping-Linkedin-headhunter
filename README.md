@@ -35,7 +35,9 @@ This repository contains a Python script that automates the process of scraping 
 
 ## Usage
 Run the script:
-run python.py
+```sh
+run app.py
+```
 app.py: The main script file that contains the following functions:
 - screenshot_linkedin_profile(profile_url): Opens the LinkedIn profile URL and takes a screenshot.
 - encode_image(image_path): Encodes the screenshot to base64 format.
